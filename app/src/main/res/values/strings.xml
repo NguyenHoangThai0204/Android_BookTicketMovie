@@ -1,0 +1,48 @@
+<resources>
+
+<!--    <string name="app_name">My Application</string>-->
+    <string-array name="gender">
+        <item>Nam</item>
+        <item>Nữ</item>
+        <item>Khác</item>
+    </string-array>
+
+    <string-array name="spinerBeta">
+        <item>Beta Nguyễn Văn Bảo - TP HCM</item>
+        <item>Beta Quang Trung - TP HCM</item>
+        <item>Beta Bình Dương - Tỉnh Bình Dương</item>
+    </string-array>
+    <string-array name="gioChieuBetaBinhDuong">
+        <item>8h:00</item>
+        <item>10h:30</item>
+        <item>13h:00</item>
+        <item>15h:30</item>
+        <item>18h:00</item>
+        <item>20h:30</item>
+        <item>22h:00</item>
+    </string-array>
+    <string-array name="gioChieuBetaQuangTrung">
+        <item>9h:00</item>
+        <item>11h:30</item>
+        <item>14h:00</item>
+        <item>16h:30</item>
+        <item>17h:00</item>
+        <item>21h:30</item>
+        <item>23h:00</item>
+    </string-array>
+    <string-array name="gioChieuBetaNguyenVanBao">
+        <item>7h:45</item>
+        <item>8h:30</item>
+        <item>9h:00</item>
+        <item>12h:00</item>
+        <item>12h:45</item>
+        <item>14h:30</item>
+        <item>16h:00</item>
+        <item>17h:00</item>
+        <item>19h:30</item>
+        <item>21h:00</item>
+        <item>22h:00</item>
+        <item>22h:30</item>
+        <item>23h:00</item>
+    </string-array>
+</resources>

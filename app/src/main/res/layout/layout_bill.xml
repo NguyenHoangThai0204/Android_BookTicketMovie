@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Rạp phim: "
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:textSize="19sp"/>
+        <TextView
+            android:id="@+id/textRapMovie"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+    </TableRow>
+    <TextView
+        android:id="@+id/textView5"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hoá đơn" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Tên phim: "
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/textMovieName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="30sp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Giờ chiếu: "
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/textMovieTime"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="30sp"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Thời lượng: "
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/textMovieThoiLuong"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="30sp"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Ngày chiếu: "
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/textMovieDate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="30sp"/>
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Số ghế: "
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/textSeat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="30sp"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Thực phẩm: "
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/textFood"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="30sp"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Thành tiền: "
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/textMoney"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#F44336"
+            android:textSize="30sp"/>
+    </TableRow>
+    <TextView
+        android:padding="10dp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xin chân thành cảm ơn khách hàng đã luôn tin tưởng và chọn hệ thống của chúng tôi!"
+        android:textColor="@color/black"
+        android:textSize="25sp"/>
+    <TableRow
+        android:layout_margin="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/butDelete"
+            android:textColor="#04589A"
+            android:layout_weight="1"
+            android:textSize="35sp"
+            android:textAllCaps="false"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#EBF3F6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Huỷ" />
+
+        <Button
+            android:id="@+id/butAccept"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textSize="35sp"
+            android:textColor="#04589A"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="#EBF3F6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đặt" />
+    </TableRow>
+</LinearLayout>
